@@ -29,7 +29,7 @@ while user_answer != "n":
                 print(f"Итоговое количество попыток: {total_attempts}")
                 break
         else:
-            print("А может быть все-таки введем целое число от 1 до 100?")
+            print(f"А может быть все-таки введем целое число от 1 до {right_border}?")
 
         entered_number = int(input("Введите число: "))
     user_answer = input("Хотите продолжить игру? (y/n): ")
